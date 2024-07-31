@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #F8EDE3;
+}
+
+.main-box {
+  background-color: #F8EDE3;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-box {
+  border: 1px solid #D0B8A8;
+  padding: 20px;
+  text-align: center;
+  background-color: #D0B8A8;
+  color: #8D493A;
+}
+
+.login-box input {
+  margin-bottom: 10px;
+  background-color: #D0B8A8;
+  color: #8D493A;
+  border: 1px solid #8D493A;
+}
+
+.login-box button {
+  background-color: #8D493A;
+  color: #D0B8A8;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#user-actions {
+  border: 1px solid #D0B8A8;
+  padding: 20px;
+  text-align: center;
+  background-color: #D0B8A8;
+  color: #8D493A;
+}
+
+#user-actions button {
+  background-color: #8D493A;
+  color: #D0B8A8;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#error-message {
+  color: #8D493A;
+}

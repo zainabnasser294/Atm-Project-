@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bank System</title>
+  <link rel="stylesheet" href="./ass/css/indext .css">
+</head>
+<body>
+  <div class="main-box">
+    <div class="login-box">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password1" placeholder="Password">
+      <input type="password" id="password2" placeholder="Confirm Password">
+      <p id="error-message" style="display: none;">The passwords do not match. Please try again.</p>
+      <button onclick="login()">Login</button>
+    </div>
+
+    <div id="user-actions" style="display: none;">
+      <h2>Welcome, <span id="user-name"></span>!</h2>
+      <div>
+        <input type="number" id="amount" placeholder="Enter amount">
+      </div>
+      <button onclick="withdraw()">Withdraw</button>
+      <button onclick="deposit()">Deposit</button>
+      <button onclick="transfer()">Transfer</button>
+      <p>Your balance: <span id="balance">50000</span></p>
+    </div>
+  </div>
+
+  <script src="./ass/js/indext.js"></script>
+</body>
+</html>
